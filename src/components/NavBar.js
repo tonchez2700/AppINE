@@ -3,7 +3,7 @@ import { TouchableOpacity, StatusBar, Text } from 'react-native';
 import { Header, Icon } from 'react-native-elements';
 import { Context as AuthContext } from '../context/AuthContext';
 import Logo from './Logo';
-import Images from '@assets/images';
+import Images from '../components/assets/images';
 
 const NavBar = (navigation) => {
     const { signout } = useContext(AuthContext);

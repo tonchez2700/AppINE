@@ -7,7 +7,7 @@ import { Context as AuthContext } from '../context/AuthContext';
 import HomeScreen from './HomeScreen';
 import tw from 'tailwind-react-native-classnames';
 import PhotoScreen from "./PhotoScreen";
-import Images from '@assets/images';
+import Images from '../components/assets/images';
 import NavBar from '../components/NavBar'
 import SimpleNavBar from '../components/SimpleNavBar'
 import { useNavigation } from '@react-navigation/native';

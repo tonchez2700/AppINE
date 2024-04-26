@@ -1,7 +1,7 @@
 import React from 'react'
 import { Header, Icon } from 'react-native-elements';
 import Logo from './Logo';
-import Images from '@assets/images';
+import Images from '../components/assets/images';
 
 const SimpleNavBar = () => {
     return (

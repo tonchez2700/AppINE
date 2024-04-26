@@ -1,6 +1,6 @@
 import React, {useContext} from 'react'
 import {View, Text, Image, StyleSheet} from 'react-native';
-import Images from '@assets/images';
+import Images from '../components/assets/images';
 
 const Card = ({text, Imagen}) => {
     return (
